@@ -49,7 +49,7 @@
 #' res <- enrichment_analysis(subnet)
 #' res <- enrichment_analysis(subnet, mode=0)}
 #' \dontrun{
-#' library(topGO)
+#' library("topGO")
 #' gene_universe <- V(ppi)$name
 #' res <- enrichment_analysis(subnet, mode=1, gene_universe)}
 #' \dontrun{
@@ -130,11 +130,10 @@ enrichment_analysis <-function(subnet, mode=NULL, gene_universe){
   }
 
     if('Compound'%in% V(subnet)$type){##then we have drugs!
-        require(dplyr)
         comps=data.frame(Drug=V(subnet)$name[which(V(subnet)$type=='Compound')],
                          Cluster=clusters$membership[which(V(subnet)$type=='Compound')])%>%
-            dplyr::group_by(Cluster)%>%
-            dplyr::summarise(DrugsByBetweenness=paste(Drug,collapse=';'))
+            dplyr::group_by(.data$Cluster)%>%
+            dplyr::summarise(DrugsByBetweenness=paste(.data$Drug,collapse=';'))
 
     }
     else{
