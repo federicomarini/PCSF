@@ -567,6 +567,9 @@ double cut(int &Root, vector< Vertex > &spanning_tree_G_pruned,  vector< string 
 //' @param cost A \code{NumericVector} which represents the edge weights.
 //' @param node_names A \code{CharacterVector} demonstrates the names of the nodes.
 //' @param node_prizes A \code{NumericVector} which corresponds to the node prizes.
+//' 
+//' @return TODO
+//' 
 //' @author Murodzhon Akhmedov
 //'
 // [[Rcpp::export]]

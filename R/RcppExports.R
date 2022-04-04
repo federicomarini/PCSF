@@ -12,9 +12,12 @@
 #' @param cost A \code{NumericVector} which represents the edge weights.
 #' @param node_names A \code{CharacterVector} demonstrates the names of the nodes.
 #' @param node_prizes A \code{NumericVector} which corresponds to the node prizes.
+#' 
+#' @return TODO
+#' 
 #' @author Murodzhon Akhmedov
 #'
 call_sr <- function(from, to, cost, node_names, node_prizes) {
-    .Call('_PCSF_call_sr', PACKAGE = 'PCSF', from, to, cost, node_names, node_prizes)
+    .Call(`_PCSF_call_sr`, from, to, cost, node_names, node_prizes)
 }
 

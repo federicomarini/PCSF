@@ -1,6 +1,8 @@
 #' Internal function \code{call_enr}
 #'
 #' This function is internally used to perform enrichment analysis employing ENRICHR API.
+#' 
+#' @return TODO
 #'
 #' @keywords internal
 #'

@@ -22,6 +22,9 @@
 #' A default legend is "Terminal".
 #' @param extra_node_colors A \code{list} with colors of extra types of nodes added to the PCSF result, with the names of the list being the node type
 #' @param ... Ignored.
+#' 
+#' @return TODO
+#' 
 #' @import igraph visNetwork
 #' @method plot PCSF
 #' @export
