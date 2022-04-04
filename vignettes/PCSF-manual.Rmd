@@ -208,6 +208,12 @@ In this case, the presence of subnetworks enriched for Gene Ontology terms like 
 <br>
 <br>
 
+#### Session info {-}
+
+```{r}
+sessionInfo()
+```
+
 
 #### REFERENCES
 
