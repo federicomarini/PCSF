@@ -43,10 +43,10 @@ Installation:
 3. The PCSF package and its dependencies can be installed on Mac OS, Linux and Windows by running the following commands in the R console.
 
 ```
-source("http://bioconductor.org/biocLite.R")
-biocLite("topGO")
+install.packages("BiocManager")
+BiocManager::install("topGO")
 install.packages("devtools", dependencies=TRUE)
-devtools::install_github("IOR-Bioinformatics/PCSF", repos=BiocInstaller::biocinstallRepos(),
+devtools::install_github("IOR-Bioinformatics/PCSF", 
                          dependencies=TRUE, type="source", force=TRUE)
 ```
 
