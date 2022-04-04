@@ -6,12 +6,20 @@ output:
   html_document:
     theme: cerulean
 bibliography: ref.bib
+vignette: >
+  %\VignetteIndexEntry{The PCSF Package}
+  %\VignetteEncoding{UTF-8}  
+  %\VignettePackage{PCSF}
+  %\VignetteKeywords{GeneExpression, Transcriptomics, Visualization,
+    DifferentialExpression, Pathways, GeneSetEnrichment, NetworkEnrichment,
+    Network, RNASeq, FunctionalAnnotation, Sequencing, Visualization}
+  %\VignetteEngine{knitr::rmarkdown}
 ---
 
 <br>
 <br>
 
-####Introduction
+#### Introduction
 
 A tremendous amount of high-throughput data at multiple layers of cellular systems has been profiled to study biological responses to perturbations and disease. The current challenge is to develop methods for effective analysis of these data to better interpret underlying biology and identify functional units. Network modeling approaches are some of the techniques lately used for analysis of biological networks [@Dittrich]. Recently, the Prize-collecting Steiner Forest (PCSF) algorithm has been applied to interaction networks to find a subnetwork enriched for input data, which corresponds to relevant subunits in the interactome of a cell [@Bechet, @Tuncbag]. 
 
