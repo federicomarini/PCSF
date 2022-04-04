@@ -127,7 +127,7 @@ function(x, style = 0, edge_width=5, node_size=40, node_label_cex = 30, Steiner_
 
     }
 
-    visNet<-visNet %>% visOptions(highlightNearest = list(enabled = T)) %>%
+    visNet<-visNet %>% visOptions(highlightNearest = list(enabled = TRUE)) %>%
       visLegend(addNodes =leg.groups, width = 0.15,
         useGroups = FALSE)
 
@@ -167,7 +167,7 @@ function(x, style = 0, edge_width=5, node_size=40, node_label_cex = 30, Steiner_
         }
     }
 
-    visNet <- visNet %>% visOptions(highlightNearest = list(enabled = T)) %>%
+    visNet <- visNet %>% visOptions(highlightNearest = list(enabled = TRUE)) %>%
       visLegend(addNodes =leg.groups, width = 0.10,
         useGroups = FALSE)
 
