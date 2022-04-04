@@ -13,6 +13,9 @@ call_enr(clusters, mode = 0, gene_universe)
 
 \item{gene_universe}{A complete list of genes (vector of gene symbols) used as background in enrichment analysis by \pkg{topGO} package.}
 }
+\value{
+TODO
+}
 \description{
 This function is internally used to perform enrichment analysis employing ENRICHR API.
 }

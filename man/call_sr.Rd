@@ -17,6 +17,9 @@ call_sr(from, to, cost, node_names, node_prizes)
 
 \item{node_prizes}{A \code{NumericVector} which corresponds to the node prizes.}
 }
+\value{
+TODO
+}
 \description{
 This function is internally used to solve the PCST.
 }
