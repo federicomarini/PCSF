@@ -8,18 +8,27 @@ Maintainer: Murodzhon Akhmedov <murodzhon@idsia.ch>
 Description: The PCSF package performs an integrated analysis of highthroughput data using the interaction networks as a template, and interprets the biological landscape of interaction networks with respect to the data, which potentially leads to predictions of functional units. It also interactively visualize the resulting subnetwork with functional enrichment analysis.
 License: MIT + file LICENSE
 Suggests:
-        knitr, 
-        rmarkdown
+    knitr, 
+    rmarkdown
 Depends:
-        R (>= 3.1.0),
-        igraph,
-        visNetwork,
+    R (>= 3.1.0)
 Imports:
-        BH,
-        httr,
-        methods,
-        org.Hs.eg.db,
-        Rcpp,
-        topGO
+    BH,
+    rlang,
+    dplyr,
+    httr,
+    methods,
+    org.Hs.eg.db,
+    igraph,
+    visNetwork,
+    Rcpp,
+    stats,
+    topGO
 LinkingTo: Rcpp, BH
-RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+biocViews:
+    GeneExpression, Software, Transcription, Transcriptomics, Visualization,
+    DifferentialExpression, Pathways, GeneSetEnrichment, NetworkEnrichment,
+    Network
