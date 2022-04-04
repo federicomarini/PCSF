@@ -1,8 +1,8 @@
 #' PCSF
 #' 
-#' PCSF 
+#' PCSF - TODO
 #' 
-#' PCSF details
+#' PCSF details - TODO
 #' 
 #' @import BH
 #' @importFrom Rcpp evalCpp sourceCpp
