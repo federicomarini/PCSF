@@ -10,7 +10,6 @@
 #' the gene within the study.
 #' 
 #' @docType data
-#' @usage Tgfb_phospho
 #' 
 #' @source Tgfb_phos.txt \url{https://github.com/fraenkel-lab/OmicsIntegrator/tree/master/example/a549}
 #' 

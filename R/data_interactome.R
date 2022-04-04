@@ -9,7 +9,6 @@
 #' element is a \code{tail}, and the last element represents the \code{cost} of the edge.
 #' 
 #' @docType data
-#' @usage STRING
 #' 
 #' @source iref_mitab_miscore_2013_08_12_interactome.txt \url{https://github.com/fraenkel-lab/OmicsIntegrator/tree/master/data}
 #' 
